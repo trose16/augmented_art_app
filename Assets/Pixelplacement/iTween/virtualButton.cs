@@ -11,7 +11,7 @@ public class  virtualButton : MonoBehaviour, IVirtualButtonEventHandler {
 	void Start () {
 
 		vbButtonObject = GameObject.Find ("virtualButton");
-		image_target = GameObject.Find ("ImageTarget");
+		image_target = GameObject.Find ("lg_triangle_3d");
 		vbButtonObject.GetComponent<VirtualButtonBehaviour> ().RegisterEventHandler (this);
 
 	}

@@ -16,7 +16,6 @@ public class MoveByAnimation : MonoBehaviour {
 	void Start () {
 
 		iTween.MoveBy(gameObject, iTween.Hash("x", MoveByX, "y", MoveByY, "z", MoveByZ, "easeType", easeType, "loopType", loopType, "delay", delay, "includechildren", includechildren));
-
 	}
 
 }

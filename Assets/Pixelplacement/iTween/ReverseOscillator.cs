@@ -1,16 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class Oscillator : MonoBehaviour {
+public class ReverseOscillator : MonoBehaviour {
 
 	public float timeCounter = 0;
 	public float x = 0;
 	public float y = 0;
 	public float z = 0;
 	public float speed;
-	public float width;
-	public float height;
+	public float width = 0;
+	public float height = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -20,15 +19,16 @@ public class Oscillator : MonoBehaviour {
 		height = height;
 
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
 		timeCounter += Time.deltaTime*speed;
 
-		y = Mathf.Tan (timeCounter)*width;
-		x = Mathf.Sin (timeCounter)*height;
+		y = Mathf.Sin (timeCounter)*width;
+		x = Mathf.Cos (timeCounter)*height;
 
 		transform.position = new Vector3 (x, y, z);		
 	}
 }
+

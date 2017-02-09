@@ -236,7 +236,7 @@ Transform:
   m_LocalScale: {x: 0.70651627, y: 33.729946, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 55.996002}
 --- !u!114 &60481625
 MonoBehaviour:
@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
+  color: {r: 0.47466743, g: 0.29141438, b: 0.5147059, a: 0.5}
   time: 3
   delay: 3
   loopType: pingPong
@@ -300,9 +300,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
+  RotateByX: 5
+  RotateByY: 5
+  RotateByZ: 5
   easeType: easeInOutBack
   loopType: pingPong
   delay: 4
@@ -390,7 +390,7 @@ Transform:
   m_LocalScale: {x: -0.7088796, y: 25.47322, z: 4.3565793}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.45900002}
 --- !u!114 &90237737
 MonoBehaviour:
@@ -700,7 +700,7 @@ Transform:
   m_LocalScale: {x: 12, y: 12, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &168855611
 MonoBehaviour:
@@ -853,7 +853,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_Name
@@ -994,6 +994,29 @@ MonoBehaviour:
   delay: 3
   loopType: pingPong
   includechildren: 1
+--- !u!1 &333959289 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100032, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
+  m_PrefabInternal: {fileID: 1722779955}
+--- !u!114 &333959293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 333959289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a049e08c0159456ba723bbd77eb8b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShakeByX: 2
+  ShakeByY: 1
+  ShakeByZ: 3
+  delay: 1
+  time: 0
+  easeType: easeInOutExpo
+  loopType: pingPong
+  includechildren: 1
 --- !u!1 &368267542 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
@@ -1016,58 +1039,6 @@ MonoBehaviour:
   easeType: easeInOutExpo
   loopType: pingPong
   includechildren: 0
---- !u!114 &368267544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 368267542}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 981af8b5f31304d2ab45e1d29908a716, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alpha: 0
-  time: 3
-  easeType: easeInSine
-  delay: 2
-  loopType: pingPong
-  includechildren: 1
---- !u!114 &368267547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 368267542}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
-  time: 3
-  delay: 3
-  loopType: pingPong
-  includechildren: 1
---- !u!114 &368267548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 368267542}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
-  easeType: easeInOutBack
-  loopType: pingPong
-  delay: 4
-  time: 1
-  includechildren: 1
 --- !u!1 &382693370 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100038, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
@@ -1078,14 +1049,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 382693370}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
+  RotateByX: 5
+  RotateByY: 5
+  RotateByZ: 5
   easeType: easeInOutBack
   loopType: pingPong
   delay: 4
@@ -1123,11 +1094,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -56.4
+      value: -50.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 67.6
+      value: 68.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1193,7 +1164,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 32d504d4fa3114c1eb5f859e84c017da, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 32d504d4fa3114c1eb5f859e84c017da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1244,23 +1215,6 @@ MonoBehaviour:
   easeType: easeInOutExpo
   loopType: pingPong
   includechildren: 1
---- !u!114 &538295522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 538295520}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 981af8b5f31304d2ab45e1d29908a716, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alpha: 0
-  time: 3
-  easeType: easeInSine
-  delay: 3
-  loopType: pingPong
-  includechildren: 1
 --- !u!114 &538295527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1296,46 +1250,6 @@ MonoBehaviour:
   delay: 3
   loopType: pingPong
   includechildren: 1
---- !u!1 &578673113
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 578673115}
-  - component: {fileID: 578673114}
-  m_Layer: 0
-  m_Name: GameSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &578673114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 578673113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c81d31786a4a41be8b7bae55151f568, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &578673115
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 578673113}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 400, y: 75.5, z: 67}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &623359870
 Prefab:
   m_ObjectHideFlags: 0
@@ -1474,7 +1388,7 @@ Transform:
   m_LocalScale: {x: 13.408746, y: 13.408746, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &648778586
 MonoBehaviour:
@@ -1490,30 +1404,12 @@ MonoBehaviour:
   green: 3
   red: 0.1
   blue: 0.5
+  delay: 2
   loopType: pingPong
 --- !u!1 &650624040 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
   m_PrefabInternal: {fileID: 1722779955}
---- !u!114 &650624044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 650624040}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
-  easeType: easeInOutBack
-  loopType: pingPong
-  delay: 4
-  time: 1
-  includechildren: 1
 --- !u!114 &650624045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,15 +1453,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400010, guid: fcd1cfb9d2b4046e8ab61c5ce8531aaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -63.7
+      value: -55.5
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: fcd1cfb9d2b4046e8ab61c5ce8531aaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 66.8
+      value: 65.5
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: fcd1cfb9d2b4046e8ab61c5ce8531aaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.9
+      value: 28.8
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: fcd1cfb9d2b4046e8ab61c5ce8531aaf, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1610,17 +1506,6 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: ed442c3f25adf4f99b0870ec6b51f567, type: 3}
   m_PrefabInternal: {fileID: 1872805432}
---- !u!114 &698824407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 698824406}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8e9ad3de25d94db6909d997f4d41202, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &698824408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,41 +1538,6 @@ MonoBehaviour:
   alpha: 0
   time: 3
   easeType: easeInSine
-  delay: 3
-  loopType: pingPong
-  includechildren: 1
---- !u!114 &698824414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 698824406}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
-  easeType: easeInOutBack
-  loopType: pingPong
-  delay: 4
-  time: 1
-  includechildren: 1
---- !u!114 &698824415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 698824406}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
-  time: 3
   delay: 3
   loopType: pingPong
   includechildren: 1
@@ -1774,7 +1624,7 @@ Transform:
   m_LocalScale: {x: 9.815669, y: 9.815665, z: 9.815665}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &708265902
 MonoBehaviour:
@@ -1940,8 +1790,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 981af8b5f31304d2ab45e1d29908a716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alpha: 0
-  time: 3
+  alpha: 0.3
+  time: 5
   easeType: easeInSine
   delay: 3
   loopType: pingPong
@@ -1959,7 +1809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveByX: 0
   MoveByY: 0
-  MoveByZ: 18
+  MoveByZ: 40
   delay: 3
   easeType: easeInOutExpo
   loopType: pingPong
@@ -2002,6 +1852,29 @@ MonoBehaviour:
   MoveByY: 10
   MoveByZ: 3
   delay: 3
+  easeType: easeInOutExpo
+  loopType: pingPong
+  includechildren: 1
+--- !u!1 &757944967 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100014, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
+  m_PrefabInternal: {fileID: 1722779955}
+--- !u!114 &757944971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 757944967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a049e08c0159456ba723bbd77eb8b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShakeByX: 20
+  ShakeByY: 5
+  ShakeByZ: 3
+  delay: 1
+  time: 0
   easeType: easeInOutExpo
   loopType: pingPong
   includechildren: 1
@@ -2158,7 +2031,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_Name
@@ -2266,7 +2139,7 @@ Transform:
   m_LocalScale: {x: -0.69952995, y: 23.570879, z: 4.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 44.706}
 --- !u!114 &869208474
 MonoBehaviour:
@@ -2360,6 +2233,29 @@ MonoBehaviour:
   easeType: easeInOutExpo
   loopType: pingPong
   includechildren: 1
+--- !u!1 &950517824 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100030, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
+  m_PrefabInternal: {fileID: 1722779955}
+--- !u!114 &950517828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950517824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a049e08c0159456ba723bbd77eb8b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShakeByX: 20
+  ShakeByY: 1
+  ShakeByZ: 20
+  delay: 1
+  time: 1
+  easeType: easeInOutExpo
+  loopType: pingPong
+  includechildren: 1
 --- !u!4 &974190360 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
@@ -2375,8 +2271,9 @@ GameObject:
   - component: {fileID: 1028289201}
   - component: {fileID: 1028289200}
   - component: {fileID: 1028289199}
+  - component: {fileID: 1028289202}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Button_back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2395,10 +2292,10 @@ RectTransform:
   m_Father: {fileID: 759093401}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: 179.39816, y: 56.13426}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -103, y: 55}
+  m_SizeDelta: {x: 146, y: 46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1028289199
 MonoBehaviour:
@@ -2440,8 +2337,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 578673114}
-        m_MethodName: BackIndex
+      - m_Target: {fileID: 1028289202}
+        m_MethodName: GoIndex
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2486,6 +2383,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1028289197}
+--- !u!114 &1028289202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1028289197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43cfe60c0dbe4f4e9c606bf6d2ebe0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1032029289 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 3c3be6f1524db48b288d05a7b7275c8b, type: 3}
@@ -2498,51 +2406,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1032029289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3298dbfba48734ccca09773cd29e2450, type: 3}
+  m_Script: {fileID: 11500000, guid: c51bba6580ad74c699868b153b0b16c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveByX: 0
-  MoveByY: 1
-  MoveByZ: 0
+  ShakeByX: 2
+  ShakeByY: 1
+  ShakeByZ: 3
   delay: 1
+  time: 2
   easeType: easeInOutExpo
   loopType: pingPong
-  includechildren: 1
---- !u!114 &1032029291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1032029289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 981af8b5f31304d2ab45e1d29908a716, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alpha: 0
-  time: 3
-  easeType: easeInSine
-  delay: 3
-  loopType: pingPong
-  includechildren: 1
---- !u!114 &1032029296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1032029289}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
-  easeType: easeInOutBack
-  loopType: pingPong
-  delay: 4
-  time: 1
   includechildren: 1
 --- !u!114 &1032029297
 MonoBehaviour:
@@ -2555,7 +2428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
+  color: {r: 0.10294117, g: 0.81110543, b: 0.875, a: 0.5}
   time: 3
   delay: 3
   loopType: pingPong
@@ -2807,7 +2680,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 49ee99c21bcd04cdba1c195f5e698827, type: 3}
       propertyPath: m_Name
@@ -2851,9 +2724,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
+  color: {r: 0.047577843, g: 0.17084774, b: 0.29411763, a: 0.5}
   time: 3
-  delay: 3
+  delay: 2
   loopType: pingPong
   includechildren: 1
 --- !u!114 &1159822142
@@ -2931,7 +2804,7 @@ MonoBehaviour:
   MoveByX: 2
   MoveByY: 40
   MoveByZ: 25
-  delay: 1
+  delay: 2
   easeType: easeInOutExpo
   loopType: pingPong
   includechildren: 1
@@ -2941,15 +2814,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1174262643}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 981af8b5f31304d2ab45e1d29908a716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alpha: 0
-  time: 3
+  alpha: 0.1
+  time: 1
   easeType: easeInSine
-  delay: 7
+  delay: 3
   loopType: pingPong
   includechildren: 1
 --- !u!114 &1174262648
@@ -2963,52 +2836,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
+  color: {r: 0.012651396, g: 0.5019693, b: 0.5735294, a: 0.5}
   time: 3
   delay: 3
   loopType: pingPong
-  includechildren: 1
---- !u!114 &1174262649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1174262643}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
-  easeType: easeInOutBack
-  loopType: pingPong
-  delay: 4
-  time: 1
   includechildren: 1
 --- !u!1 &1185739351 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 2fce07c343ba64dbeaaa64b778777543, type: 3}
   m_PrefabInternal: {fileID: 2015171500}
---- !u!114 &1185739352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1185739351}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3298dbfba48734ccca09773cd29e2450, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveByX: 2
-  MoveByY: 1
-  MoveByZ: 3
-  delay: 1
-  easeType: easeInOutExpo
-  loopType: pingPong
-  includechildren: 1
 --- !u!114 &1185739353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3020,7 +2856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 981af8b5f31304d2ab45e1d29908a716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alpha: 0
+  alpha: 0.5
   time: 3
   easeType: easeInSine
   delay: 3
@@ -3056,9 +2892,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
+  color: {r: 1, g: 0.48362663, b: 0.01481402, a: 0.5}
   time: 3
-  delay: 3
+  delay: 2
   loopType: pingPong
   includechildren: 1
 --- !u!1 &1196494684 stripped
@@ -3172,7 +3008,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 168ad1566237b4617ae31f314455c681, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 168ad1566237b4617ae31f314455c681, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3306,7 +3142,7 @@ Transform:
   m_LocalScale: {x: 0.54256016, y: 9.271466, z: 4.381055}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.950005}
 --- !u!114 &1220579405
 MonoBehaviour:
@@ -3359,26 +3195,6 @@ MonoBehaviour:
   easeType: easeInOutExpo
   loopType: pingPong
   includechildren: 1
---- !u!1 &1281402858 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100002, guid: 4c256616cc64a4b53ac7d4ad3ed655e5, type: 3}
-  m_PrefabInternal: {fileID: 1936742953}
---- !u!114 &1281402862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1281402858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 0, g: 0.91724133, b: 1, a: 0.5}
-  time: 3
-  delay: 0
-  loopType: pingPong
-  includechildren: 1
 --- !u!1 &1357880957 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
@@ -3417,6 +3233,106 @@ MonoBehaviour:
   delay: 3
   loopType: pingPong
   includechildren: 1
+--- !u!1 &1373466901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1373466906}
+  - component: {fileID: 1373466905}
+  - component: {fileID: 1373466904}
+  - component: {fileID: 1373466903}
+  - component: {fileID: 1373466902}
+  m_Layer: 0
+  m_Name: Sphere (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1373466902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373466901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc5841bf4014547d38831492ea0073db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeCounter: 100
+  x: 0
+  y: 0
+  z: 0
+  speed: 3
+  width: 5
+  height: 100
+--- !u!23 &1373466903
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373466901}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b9acfad0a3b5947b1ba19f0ecf325ea2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!135 &1373466904
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373466901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1373466905
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373466901}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1373466906
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373466901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.9, y: 87, z: -1.6}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1437967980 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100026, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
@@ -3545,7 +3461,7 @@ Transform:
   m_LocalScale: {x: -0.2023418, y: 17.024109, z: 4.381055}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -64.234}
 --- !u!114 &1476679546
 MonoBehaviour:
@@ -3598,6 +3514,108 @@ MonoBehaviour:
   easeType: easeInOutExpo
   loopType: pingPong
   includechildren: 1
+--- !u!1 &1548858870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1548858875}
+  - component: {fileID: 1548858874}
+  - component: {fileID: 1548858873}
+  - component: {fileID: 1548858872}
+  - component: {fileID: 1548858871}
+  m_Layer: 0
+  m_Name: Sphere (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1548858871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1548858870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e12cab9d0cb4d1381ebe28a1395835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScaleToX: 15
+  ScaleToY: 15
+  ScaleToZ: 15
+  delay: 1
+  time: 1
+  speed: 5
+  easeType: easeInOutExpo
+  loopType: pingPong
+  includechildren: 1
+--- !u!23 &1548858872
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1548858870}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1de2a83063b1b43a7aebacb66fedf8a2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!135 &1548858873
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1548858870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1548858874
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1548858870}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1548858875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1548858870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 80.5, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1550714383
 GameObject:
   m_ObjectHideFlags: 0
@@ -3680,7 +3698,7 @@ Transform:
   m_LocalScale: {x: 0.54256016, y: 9.271466, z: 4.381055}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.950005}
 --- !u!114 &1550714388
 MonoBehaviour:
@@ -3812,11 +3830,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1551795285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.6, y: 80.4, z: 29.609375}
+  m_LocalPosition: {x: -57.3, y: 79.6, z: 35.4}
   m_LocalScale: {x: 5.4480314, y: 5.5935717, z: 2.319409}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1551795290
 MonoBehaviour:
@@ -3899,7 +3917,6 @@ GameObject:
   - component: {fileID: 1583107052}
   - component: {fileID: 1583107051}
   - component: {fileID: 1583107050}
-  - component: {fileID: 1583107054}
   - component: {fileID: 1583107055}
   m_Layer: 0
   m_Name: Cylinder
@@ -3970,20 +3987,8 @@ Transform:
   m_LocalScale: {x: 8.042149, y: 8.042145, z: 8.042145}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1583107054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1583107049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d7680df8781c4f269284dfb2f624ac3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypointArray: []
 --- !u!114 &1583107055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3992,13 +3997,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1583107049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5841bf4014547d38831492ea0073db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a049e08c0159456ba723bbd77eb8b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeCounter: 7
-  speed: 3
-  width: 60
-  height: 60
+  ShakeByX: 5
+  ShakeByY: 5
+  ShakeByZ: 3
+  delay: 5
+  time: 1
+  easeType: easeInOutExpo
+  loopType: pingPong
+  includechildren: 1
 --- !u!1 &1589341104 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 32d504d4fa3114c1eb5f859e84c017da, type: 3}
@@ -4083,18 +4092,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1611025816}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a049e08c0159456ba723bbd77eb8b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
-  easeType: easeInOutBack
+  ShakeByX: 20
+  ShakeByY: 1
+  ShakeByZ: 3
+  delay: 1
+  time: 5
+  easeType: easeInOutExpo
   loopType: pingPong
-  delay: 4
-  time: 1
   includechildren: 1
 --- !u!1001 &1613688991
 Prefab:
@@ -4173,10 +4182,8 @@ GameObject:
   - component: {fileID: 1614907578}
   - component: {fileID: 1614907577}
   - component: {fileID: 1614907576}
-  - component: {fileID: 1614907580}
   - component: {fileID: 1614907581}
-  - component: {fileID: 1614907583}
-  - component: {fileID: 1614907582}
+  - component: {fileID: 1614907580}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -4241,11 +4248,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1614907575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 70.6, z: 29.609375}
+  m_LocalPosition: {x: -0.1, y: 70.3, z: 29.609375}
   m_LocalScale: {x: 5.934232, y: 5.934232, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1614907580
 MonoBehaviour:
@@ -4255,15 +4262,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1614907575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 981af8b5f31304d2ab45e1d29908a716, type: 3}
+  m_Script: {fileID: 11500000, guid: ffb333e5fed5448799b961d43f2004ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alpha: 0
-  time: 3
-  easeType: easeInSine
-  delay: 3
-  loopType: pingPong
-  includechildren: 1
+  timeCounter: 5
+  x: 0
+  y: 0
+  z: 0
+  speed: 10
+  width: 100
+  height: 50
 --- !u!114 &1614907581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4272,51 +4280,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1614907575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 518289e442ecb4ccaba5f1c5bcf04087, type: 3}
+  m_Script: {fileID: 11500000, guid: 00b27183bee3d4aaa8f904891807220f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateByX: 2
-  RotateByY: 2
-  RotateByZ: 2
-  easeType: easeInOutBack
+  green: 0
+  red: 5
+  blue: 0.2
+  delay: 2
   loopType: pingPong
-  delay: 4
-  time: 1
-  includechildren: 1
---- !u!114 &1614907582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1614907575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
-  time: 3
-  delay: 3
-  loopType: pingPong
-  includechildren: 1
---- !u!114 &1614907583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1614907575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3298dbfba48734ccca09773cd29e2450, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveByX: 2
-  MoveByY: 1
-  MoveByZ: 3
-  delay: 1
-  easeType: easeInOutExpo
-  loopType: pingPong
-  includechildren: 1
 --- !u!1 &1645959733 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: fcd1cfb9d2b4046e8ab61c5ce8531aaf, type: 3}
@@ -4717,7 +4688,7 @@ Transform:
   m_LocalScale: {x: 14, y: 14, z: 14}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1802886350 stripped
 GameObject:
@@ -4761,22 +4732,6 @@ MonoBehaviour:
   MoveByZ: 10
   delay: 3
   easeType: easeInOutExpo
-  loopType: pingPong
-  includechildren: 1
---- !u!114 &1835127499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1835127491}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65d89666c6fde4a64a03eca169a408c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
-  time: 3
-  delay: 3
   loopType: pingPong
   includechildren: 1
 --- !u!1001 &1840121815
@@ -4974,7 +4929,7 @@ Transform:
   m_Children:
   - {fileID: 1887494981}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1885045535
 MonoBehaviour:
@@ -5004,7 +4959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3298dbfba48734ccca09773cd29e2450, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveByX: 2
+  MoveByX: 5
   MoveByY: 1
   MoveByZ: 10
   delay: 1
@@ -5262,7 +5217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1986564853
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5587,6 +5542,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeCounter: 0
+  x: 0
+  y: 0
+  z: 0
   speed: 0
   width: 0
   height: 0
@@ -5621,6 +5579,28 @@ MonoBehaviour:
   color: {r: 0.2, g: 0.3, b: 0.4, a: 0.5}
   time: 3
   delay: 3
+  loopType: pingPong
+  includechildren: 1
+--- !u!1 &2108906610 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100016, guid: 781c1b0194ed949b2971362b38ed3d7a, type: 3}
+  m_PrefabInternal: {fileID: 1722779955}
+--- !u!114 &2108906614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2108906610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0240d80d3dcad43d18166b553d2ac8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PunchByX: 100
+  PunchByY: 50
+  PunchByZ: 100
+  delay: 1
+  time: 5
   loopType: pingPong
   includechildren: 1
 --- !u!1001 &2114624484
@@ -5660,7 +5640,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a725225d3d981b4182014a2e20b501c, type: 2}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 2a725225d3d981b4182014a2e20b501c, type: 2}
       propertyPath: mPrevTransform.e00

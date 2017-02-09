@@ -4,25 +4,26 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
+
 public class ButtonAction : MonoBehaviour {
 
 	public void GoIndex () {
-		SceneManager.LoadScene("Index");
+		SceneManager.LoadScene ("Index");
 	}
 
 	public void GoHome () {
-		SceneManager.LoadScene("Home");
+		SceneManager.LoadScene ("Home");
 	}
 
 	public void GoArtist () {
-		SceneManager.LoadScene("Artist");
+		SceneManager.LoadScene ("Artist");
 	}
 
 	public void GoCanvas () {
-		SceneManager.LoadScene("Canvas");
+		SceneManager.LoadScene ("Canvas");
 	}
 
 	public void GoAugment () {
-		SceneManager.LoadScene("Augment");
+		SceneManager.LoadScene ("Augment");
 	}
 }
