@@ -6,6 +6,8 @@ An Augmented Reality Art App project brings art to life. Allows users to interac
 
 Our app currently works with Kandinsky's Composition VIII. Using an Android phone or laptop camera this canvas from Kandinsky pops and animates right out in front of you like it has literally come to life!
 
+ Preview: https://vimeo.com/user62661935/augmented-art
+
 
 
 # Project members
